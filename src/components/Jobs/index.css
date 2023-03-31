@@ -1,0 +1,93 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.jobs-container-main-section {
+  padding: 16px;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #b6c5ff;
+  justify-content: space-between;
+  border-radius: 3px;
+  max-width: 350px;
+  width: 100%;
+  margin: 12px auto;
+  height: 35px;
+}
+.user-input {
+  border: none;
+  width: 100%;
+  padding-top: 10px;
+  outline: none;
+}
+.search-icon-container {
+  background-color: #202020;
+  padding: 7px 12px;
+  border: none;
+}
+.search-icon {
+  color: #b6c5ff;
+}
+.profile-details-container {
+  padding: 18px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/profile-bg.png);
+  max-width: 400px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+.profile-image {
+  width: 40px;
+}
+.profile-name-heading {
+  font-size: 19px;
+  color: #6366f1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.profile-bio {
+  color: #2c364c;
+  font-size: 15px;
+}
+.employment-types-container,
+.salary-range-container {
+  color: #fff;
+  border-top: 1px solid #b6c5ff;
+  padding-top: 16px;
+  margin-top: 20px;
+}
+h4 {
+  margin-bottom: 15px;
+}
+label {
+  margin-left: 8px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-details-failure-container {
+  text-align: center;
+}
+.job-details-failure-view {
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .jobs-container-main-section {
+    display: flex;
+    padding: 25px;
+  }
+  .job-details-container {
+    margin-left: 25px;
+  }
+}
